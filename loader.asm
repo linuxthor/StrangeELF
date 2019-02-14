@@ -88,15 +88,15 @@ sun:
     ; BSD code
     ;
 bsd:
-    mov rdi,1
-    mov rsi,bsds
-    mov rdx,bsdslen
-    mov rax,4               ; sys_write
+    mov rdi, 1
+    mov rsi, bsds
+    mov rdx, bsdslen
+    mov rax, 4               ; sys_write
     syscall
 
 bexit:
-    mov rdi,69
-    mov rax,1               ; sys_exit for BSD and SunOS
+    mov rdi, 69
+    mov rax, 1               ; sys_exit for BSD and SunOS
     syscall
 
 hexit:
