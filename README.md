@@ -1,7 +1,7 @@
 # StrangeELF
 Material for the talk "Strange ELF" at DC151 13/2/2019
 
-The ISO contains the presentation - a 64 bit ELF binary that can be executed on:
+The ISO contains the presentation - an x86-64 ELF binary that can be executed on:
 
 * Linux
 * FreeBSD
